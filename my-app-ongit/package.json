@@ -2,13 +2,13 @@
   "name": "my-app-ongit",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://miris-mimitako.github.io/mimitako_react_apps",
+  "homepage": "https://miris-mimitako.github.io/mimitako_react_apps",
   "scripts": {
     "dev": "next dev",
-    "build": "npm run build", 
+    "build": "npm run build",
     "start": "next start",
     "lint": "next lint",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "next": "12.1.0",
