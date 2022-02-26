@@ -3,4 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+// module.exports = nextConfig
+
+module.exports = {
+  distDir: 'build', // this setting is necesarry to using nextjs
+}
